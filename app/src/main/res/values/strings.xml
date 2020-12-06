@@ -7,5 +7,17 @@
     <string name="settings">settings</string>
     <string name="pnombreMascota">Nombre</string>
     <string name="favoritos">Favoritos</string>
+    <string name="acercaDe">Acerca de</string>
+    <string name="contacto">Contacto</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="enviarComentario">Enviar  comentario</string>
+    <string name="enviandoCorreo">Enviando mensaje</string>
+    <string name="asunto">Contacto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="catty">Catty</string>
+    <string name="bio">Hola, mi nombre es Yury soy de Colombia, soy ingeniera de sistemas y vivo en la ciudad de Bogotá</string>
 
 </resources>

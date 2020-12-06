@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nombre_det_perfil">26dp</dimen>
+    <dimen name="cardView_margin">6dp</dimen>
+</resources>

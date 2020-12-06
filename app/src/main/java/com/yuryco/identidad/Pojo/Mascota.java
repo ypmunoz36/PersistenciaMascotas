@@ -1,17 +1,21 @@
-package com.yuryco.identidad;
+package com.yuryco.identidad.Pojo;
 
 public class Mascota {
 
+    private int idMascota;
     private String nombre;
     private int numRaiting;
-    private boolean estadoRaiteado;
     private int foto;
 
-    public Mascota(String nombre, int numRaiting, boolean estadoRaiteado, int foto) {
+    public Mascota(int idMascota,String nombre, int numRaiting , int foto ) {
         this.nombre = nombre;
         this.numRaiting = numRaiting;
-        this.estadoRaiteado = estadoRaiteado;
         this.foto = foto;
+        this.idMascota = idMascota;
+    }
+
+    public Mascota() {
+
     }
 
     public String getNombre() {
@@ -30,19 +34,19 @@ public class Mascota {
         this.numRaiting = numRaiting;
     }
 
-    public boolean isEstadoRaiteado() {
-        return estadoRaiteado;
-    }
-
-    public void setEstadoRaiteado(boolean estadoRaiteado) {
-        this.estadoRaiteado = estadoRaiteado;
-    }
-
     public int getFoto() {
         return foto;
     }
 
     public void setFoto(int foto) {
         this.foto = foto;
+    }
+
+    public int getIdMascota() {
+        return idMascota;
+    }
+
+    public void setIdMascota(int idMascota) {
+        this.idMascota = idMascota;
     }
 }

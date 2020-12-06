@@ -2,9 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:id="@+id/mAbout"
-        android:title="@string/about"
+    <item android:id="@+id/mContacto"
+        android:title="@string/contacto"
         ></item>
-    <item android:id="@+id/mSettings"
-        android:title="@string/settings"></item>
+    <item android:id="@+id/mAcercaDe"
+        android:title="@string/acercaDe"></item>
 </menu>
